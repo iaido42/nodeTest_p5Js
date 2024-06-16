@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client-Server Kommunikation mit Fetch API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .box {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .arrow {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .code {
+            background-color: #e9ecef;
+            padding: 2px 5px;
+            border-radius: 5px;
+            font-family: "Courier New", Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Client-Server Kommunikation mit Fetch API</h1>
+    <div class="container">
+        <div class="box">
+            <h2>Client (Browser)</h2>
+        </div>
+        <div class="box">
+            <p>HTML Form</p>
+        </div>
+        <div class="arrow">
+            <p>↓</p>
+        </div>
+        <div class="box">
+            <p>JavaScript (Fetch API)</p>
+        </div>
+        <div class="arrow">
+            <p>↓</p>
+        </div>
+        <div class="box">
+            <p>HTTP POST request</p>
+        </div>
+        <div class="arrow">
+            <p>↓</p>
+        </div>
+        <div class="box">
+            <h2>Server</h2>
+        </div>
+        <div class="box">
+            <p>Servlet processes request</p>
+        </div>
+        <div class="arrow">
+            <p>↓</p>
+        </div>
+        <div class="box">
+            <p>HTTP Response</p>
+        </div>
+        <div class="arrow">
+            <p>↓</p>
+        </div>
+        <div class="box">
+            <p>JSON response</p>
+        </div>
+        <div class="arrow">
+            <p>↓</p>
+        </div>
+        <div class="box">
+            <p>JavaScript processes response</p>
+        </div>
+        <div class="arrow">
+            <p>↓</p>
+        </div>
+        <div class="box">
+            <p>Update HTML</p>
+        </div>
+    </div>
+</body>
+</html>
