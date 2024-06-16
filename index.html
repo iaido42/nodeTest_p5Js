@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client-Server Kommunikation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .box {
+            width: 45%;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .arrow {
+            text-align: center;
+            font-size: 24px;
+        }
+        .step {
+            margin-bottom: 20px;
+        }
+        .code {
+            background-color: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: "Courier New", Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Client-Server Kommunikation</h1>
+    <div class="container">
+        <div class="box">
+            <h2>Client (Browser)</h2>
+            <div class="step">
+                <p>1. User requests a web page <span class="code">(HTTP GET)</span></p>
+            </div>
+            <div class="step">
+                <p>4. Browser renders the response</p>
+            </div>
+        </div>
+        <div class="arrow">
+            <p>→</p>
+            <p>←</p>
+        </div>
+        <div class="box">
+            <h2>Server</h2>
+            <div class="step">
+                <p>2. Server processes the request</p>
+            </div>
+            <div class="step">
+                <p>3. Server sends the response <span class="code">(HTML, CSS, JS)</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
